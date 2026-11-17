@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Arquivos gerados pela automação
+output/
+
+# Dados de máquinas da empresa (BOMs e gabaritos validados).
+# Remova estas linhas apenas se o repositório for PRIVADO.
+dados_referencia/*_BOM_CAD.xlsx
+dados_referencia/*_VALIDADO.xlsx
+
+# Temporários do Excel
+~$*.xlsx

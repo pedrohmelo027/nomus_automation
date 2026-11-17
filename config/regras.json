@@ -1,0 +1,113 @@
+{
+  "valores_fixos_produto": {
+    "Unidade de medida": "UNID",
+    "Empresas": "01",
+    "Setores de estoque": "01,02",
+    "Setor de estoque padrão do produto": "02",
+    "NCM": "84378010",
+    "Origem do produto": "0",
+    "Politica de ressuprimento": "Ressuprimento sob encomenda sem consulta ao estoque",
+    "Familia de produto padrao": "COMPONENTE DE MAQUINA",
+    "Familia de produto aco": "AÇO LIGA"
+  },
+  "aco_padrao": {
+    "grupo_padrao": "SAE 4140",
+    "grupo_engrenagem": "SAE 4320",
+    "prefixo_familia": {
+      "AÇO LIGA": "AL",
+      "AÇO CARBONO": "AC"
+    },
+    "formato_codigo": "{prefixo}-{grupo}-{lam_forj}-RE-Ø{diametro} X {comprimento}",
+    "sigla_tipo_aco": {
+      "LAMINADO": "LAM",
+      "FORJADO": "FORJ"
+    }
+  },
+  "sufixos_tipo_produto": {
+    "CONJUNTO SOLDADO": "-C",
+    "SOLDADO": "-C",
+    "CONJUNTO USINADO": "-U",
+    "USINADO": "-U",
+    "PRODUTO SEMI-ACABADO": "-SA",
+    "PRODUTO SEMI ACABADO": "-SA",
+    "MATERIA PRIMA": "-MP",
+    "MATÉRIA PRIMA": "-MP"
+  },
+  "sufixos_tipo_corte": {
+    "CORTE LASER": "-CL",
+    "OXICORTE": "-OXI",
+    "CORTE E DOBRA": "-CD"
+  },
+  "servicos_terceiros": {
+    "ALÍVIO DE TENSÃO": {
+      "sufixo": "-ALT",
+      "codigo_servico": "SERV-TTERM-ALT",
+      "posicao_cadeia": "entre_solda_e_usinagem",
+      "tipo_produto": "PRODUTO SEMI-ACABADO"
+    },
+    "ALIVIO DE TENSAO": {
+      "sufixo": "-ALT",
+      "codigo_servico": "SERV-TTERM-ALT",
+      "posicao_cadeia": "entre_solda_e_usinagem",
+      "tipo_produto": "PRODUTO SEMI-ACABADO"
+    },
+    "TÊMPERA E REVENIMENTO": {
+      "sufixo": "-TR",
+      "codigo_servico": "SERV-TTERM-TR",
+      "posicao_cadeia": "apos_usinagem",
+      "tipo_produto": "PRODUTO SEMI-ACABADO"
+    },
+    "TEMPERA E REVENIMENTO": {
+      "sufixo": "-TR",
+      "codigo_servico": "SERV-TTERM-TR",
+      "posicao_cadeia": "apos_usinagem",
+      "tipo_produto": "PRODUTO SEMI-ACABADO"
+    },
+    "TÊMPERA E CEMENTAÇÃO": {
+      "sufixo": "-TC",
+      "codigo_servico": "SERV-TTERM-TC",
+      "posicao_cadeia": "apos_usinagem",
+      "tipo_produto": "PRODUTO SEMI-ACABADO"
+    },
+    "CEMENTAÇÃO": {
+      "sufixo": "-TC",
+      "codigo_servico": "SERV-TTERM-TC",
+      "posicao_cadeia": "apos_usinagem",
+      "tipo_produto": "PRODUTO SEMI-ACABADO"
+    },
+    "FRESAMENTO E ENTALHE": {
+      "sufixo": "-FRE-EN",
+      "codigo_servico": "SERV-US-FRE-EN",
+      "posicao_cadeia": "apos_usinagem",
+      "tipo_produto": "CONJUNTO USINADO"
+    },
+    "CALANDRA": {
+      "sufixo": "-CAL",
+      "codigo_servico": "SERV-CAL",
+      "posicao_cadeia": "apos_corte",
+      "tipo_produto": "PRODUTO SEMI-ACABADO"
+    },
+    "USINAGEM": {
+      "sufixo": "-U",
+      "codigo_servico": "SERV-US",
+      "posicao_cadeia": "terceirizado_direto",
+      "tipo_produto": "CONJUNTO USINADO"
+    }
+  },
+  "metodo_ressuprimento_por_tipo": {
+    "CONJUNTO SOLDADO": "Como padrão fabricado",
+    "SOLDADO": "Como padrão fabricado",
+    "CONJUNTO USINADO": "Como padrão fabricado",
+    "USINADO": "Como padrão fabricado",
+    "PRODUTO SEMI-ACABADO": "Como padrão fabricado",
+    "MATERIA PRIMA": "Como padrão comprado",
+    "PRODUZIDO EM TERCEIROS": "Como padrão comprado"
+  },
+  "remete_terceiro_modo": "filho_enviado_ao_terceiro",
+  "lista_materiais_padrao": {
+    "sufixo_nome_lista": "-001",
+    "qtde_base": 1,
+    "posicao": 1,
+    "recebe_terceiro": 0
+  }
+}
