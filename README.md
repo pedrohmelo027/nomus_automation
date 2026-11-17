@@ -64,7 +64,7 @@ A Planilha de Trabalho é a **única** planilha que o usuário edita. Nela é po
 ## Instalação
 
 ```powershell
-git clone <url-do-repositorio>
+git clone https://github.com/pedrohmelo027/nomus_automation
 cd automacao_bom_nomus
 py -m pip install openpyxl
 ```
